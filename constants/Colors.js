@@ -1,0 +1,92 @@
+
+// This file contains the color constants for the light and dark themes.
+// The colors are defined in the RGB format.
+const tintColorLight = "#2f95dc";
+const tintColorDark = "#fff";
+
+export default {
+    light: {
+        "primary": "rgb(0, 100, 151)",
+        "onPrimary": "rgb(255, 255, 255)",
+        "primaryContainer": "rgb(204, 229, 255)",
+        "onPrimaryContainer": "rgb(0, 30, 49)",
+        "secondary": "rgb(149, 54, 151)",
+        "onSecondary": "rgb(255, 255, 255)",
+        "secondaryContainer": "rgb(255, 214, 248)",
+        "onSecondaryContainer": "rgb(55, 0, 58)",
+        "tertiary": "rgb(0, 104, 116)",
+        "onTertiary": "rgb(255, 255, 255)",
+        "tertiaryContainer": "rgb(151, 240, 255)",
+        "onTertiaryContainer": "rgb(0, 31, 36)",
+        "error": "rgb(186, 26, 26)",
+        "onError": "rgb(255, 255, 255)",
+        "errorContainer": "rgb(255, 218, 214)",
+        "onErrorContainer": "rgb(65, 0, 2)",
+        "background": "rgb(252, 252, 255)",
+        "onBackground": "rgb(26, 28, 30)",
+        "surface": "rgb(252, 252, 255)",
+        "onSurface": "rgb(26, 28, 30)",
+        "surfaceVariant": "rgb(222, 227, 235)",
+        "onSurfaceVariant": "rgb(66, 71, 78)",
+        "outline": "rgb(114, 120, 126)",
+        "outlineVariant": "rgb(194, 199, 206)",
+        "shadow": "rgb(0, 0, 0)",
+        "scrim": "rgb(0, 0, 0)",
+        "inverseSurface": "rgb(47, 49, 51)",
+        "inverseOnSurface": "rgb(240, 240, 244)",
+        "inversePrimary": "rgb(146, 204, 255)",
+        "elevation": {
+            "level0": "transparent",
+            "level1": "rgb(239, 244, 250)",
+            "level2": "rgb(232, 240, 247)",
+            "level3": "rgb(224, 235, 244)",
+            "level4": "rgb(222, 234, 243)",
+            "level5": "rgb(217, 231, 240)"
+        },
+        "surfaceDisabled": "rgba(26, 28, 30, 0.12)",
+        "onSurfaceDisabled": "rgba(26, 28, 30, 0.38)",
+        "backdrop": "rgba(43, 49, 55, 0.4)"
+    },
+    dark: {
+        "primary": "rgb(146, 204, 255)",
+        "onPrimary": "rgb(0, 51, 81)",
+        "primaryContainer": "rgb(0, 75, 115)",
+        "onPrimaryContainer": "rgb(204, 229, 255)",
+        "secondary": "rgb(255, 170, 249)",
+        "onSecondary": "rgb(90, 0, 95)",
+        "secondaryContainer": "rgb(121, 26, 124)",
+        "onSecondaryContainer": "rgb(255, 214, 248)",
+        "tertiary": "rgb(79, 216, 235)",
+        "onTertiary": "rgb(0, 54, 61)",
+        "tertiaryContainer": "rgb(0, 79, 88)",
+        "onTertiaryContainer": "rgb(151, 240, 255)",
+        "error": "rgb(255, 180, 171)",
+        "onError": "rgb(105, 0, 5)",
+        "errorContainer": "rgb(147, 0, 10)",
+        "onErrorContainer": "rgb(255, 180, 171)",
+        "background": "rgb(26, 28, 30)",
+        "onBackground": "rgb(226, 226, 229)",
+        "surface": "rgb(26, 28, 30)",
+        "onSurface": "rgb(226, 226, 229)",
+        "surfaceVariant": "rgb(66, 71, 78)",
+        "onSurfaceVariant": "rgb(194, 199, 206)",
+        "outline": "rgb(140, 145, 152)",
+        "outlineVariant": "rgb(66, 71, 78)",
+        "shadow": "rgb(0, 0, 0)",
+        "scrim": "rgb(0, 0, 0)",
+        "inverseSurface": "rgb(226, 226, 229)",
+        "inverseOnSurface": "rgb(47, 49, 51)",
+        "inversePrimary": "rgb(0, 100, 151)",
+        "elevation": {
+            "level0": "transparent",
+            "level1": "rgb(32, 37, 41)",
+            "level2": "rgb(36, 42, 48)",
+            "level3": "rgb(39, 47, 55)",
+            "level4": "rgb(40, 49, 57)",
+            "level5": "rgb(43, 53, 62)"
+        },
+        "surfaceDisabled": "rgba(226, 226, 229, 0.12)",
+        "onSurfaceDisabled": "rgba(226, 226, 229, 0.38)",
+        "backdrop": "rgba(43, 49, 55, 0.4)"
+    }
+};
